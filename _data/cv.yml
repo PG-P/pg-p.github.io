@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Piergiorgio Panero
     - name: Date of Birth
-      value: 14th March 1879
+      value: 23rd October 1994
     - name: Languages
-      value: English, German
+      value: Italian, English, French
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Antwerp, Antwerp, Belgium
+      year: 2022
       description:
         - Description 1.
         - Description 2.
