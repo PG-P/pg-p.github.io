@@ -11,7 +11,7 @@ profile:
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
-    <p>Clermont-Ferrand, France 63000</p>
+    <p>Clermont-Ferrand, France 63100</p>
 
 news: false  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
