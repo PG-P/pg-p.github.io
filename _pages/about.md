@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Etc.
 
 profile:
   align: right
@@ -11,9 +11,9 @@ profile:
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Clermont-Ferrand, France 63000</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
@@ -32,7 +32,7 @@ I would like to understand how Git works, and try to learn tons of new stuff.
 
 *BUT HOW??* 
 
-This is my LinkedIn page, not very up to date nor interesting, but you may give a look anyway: [Piergiorgio Panero](https://www.linkedin.com/in/piergiorgio-panero-8922691aa/)
+This is my LinkedIn page, not very up to date nor interesting, but you may give a look anyway: [Piergiorgio Panero.](https://www.linkedin.com/in/piergiorgio-panero-8922691aa/)
 
 Probably I may even learn how to create a website here, so to show everyone my CV's and projects, but for sure it will take a while.
 
