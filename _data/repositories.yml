@@ -1,8 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - PG-P
 
 github_repos:
+  - ctralie / TDALabs
+  - GUDHI / TDA-tutorial
   - alshedivat/al-folio
   - twbs/bootstrap
   - jekyll/jekyll
