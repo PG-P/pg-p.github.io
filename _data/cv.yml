@@ -15,10 +15,10 @@
       institution: University of Antwerp, Antwerp, Belgium
       year: 2022
       description:
-        - title: Title:
+        - title: PhD title
           contents:
             - Weak units, higher operads and deformation of monoidal categories
-        - title: PhD advisors:
+        - title: PhD advisors
           contents:
             - Boris Shoikhet 
             - Wendy Lowen
@@ -26,19 +26,19 @@
       institution: University of Turin, Turin, Italy
       year: 2018
       description:
-        - title: Title:
+        - title: M.Sc title
           contents:
             - Extensions in Grothendieck Theory
-        - title: M.Sc advisor:
+        - title: M.Sc advisor
           contents:
             - Cristiana Bertolin
     - title: B.Sc in Mathematics
       institution: University of Turin, Turin, Italy
       year: 2016
       description:
-        - title: Title:
+        - title: B.Sc title
           contents:
-            - Extensions in Grothendieck Theory
+            - Enumerative geometry in positive characteristic
         - title: B.Sc advisor:
           contents:
             - Alberto Collino
