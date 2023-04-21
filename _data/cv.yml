@@ -15,25 +15,33 @@
       institution: University of Antwerp, Antwerp, Belgium
       year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Title:
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Weak units, higher operads and deformation of monoidal categories
+        - title: PhD advisors:
+          contents:
+            - Boris Shoikhet 
+            - Wendy Lowen
     - title: M.Sc in Mathematics
       institution: University of Turin, Turin, Italy
       year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - title: Title:
+          contents:
+            - Extensions in Grothendieck Theory
+        - title: M.Sc advisor:
+          contents:
+            - Cristiana Bertolin
     - title: B.Sc in Mathematics
       institution: University of Turin, Turin, Italy
       year: 2016
       description:
-        - Description 1.
-        - Description 2.
-        
+        - title: Title:
+          contents:
+            - Extensions in Grothendieck Theory
+        - title: B.Sc advisor:
+          contents:
+            - Alberto Collino
 - title: Experience
   type: time_table
   contents:
@@ -70,9 +78,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/PG-P/">My GitHub</a>
+      year: 2022-now
+      description: A beautiful environment where to learn tons of things.
 
 - title: Honors and Awards
   type: time_table
@@ -88,16 +96,16 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Algebra
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Deformation Theory
+        - Category Theory
+    - title: Data Science
       items:
-        - Description 1.
-        - Description 2.
+        - Topological Data Analysis 
+        - Unsupervised Learning
 
-- title: Other Interests
+- title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Table tennis, Hiking, Literature, Opera
