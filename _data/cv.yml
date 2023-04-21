@@ -18,10 +18,12 @@
         - title: PhD title
           contents:
             - Weak units, higher operads and deformation of monoidal categories
+            
         - title: PhD advisors
           contents:
             - Boris Shoikhet 
             - Wendy Lowen
+            
     - title: M.Sc in Mathematics
       institution: University of Turin, Turin, Italy
       year: 2018
@@ -29,9 +31,11 @@
         - title: M.Sc title
           contents:
             - Extensions in Grothendieck Theory
+            
         - title: M.Sc advisor
           contents:
             - Cristiana Bertolin
+            
     - title: B.Sc in Mathematics
       institution: University of Turin, Turin, Italy
       year: 2016
@@ -39,9 +43,11 @@
         - title: B.Sc title
           contents:
             - Enumerative geometry in positive characteristic
+            
         - title: B.Sc advisor:
           contents:
             - Alberto Collino
+            
 - title: Experience
   type: time_table
   contents:
