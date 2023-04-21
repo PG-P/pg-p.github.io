@@ -2,8 +2,8 @@ github_users:
   - PG-P
 
 github_repos:
-  - ctralie / TDALabs
-  - GUDHI / TDA-tutorial
+  - ctralie/TDALabs
+  - GUDHI/TDA-tutorial
   - alshedivat/al-folio
   - twbs/bootstrap
   - jekyll/jekyll
