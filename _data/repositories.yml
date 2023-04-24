@@ -4,6 +4,17 @@ github_users:
 github_repos:
   - ctralie/TDALabs
   - GUDHI/TDA-tutorial
+  - scikit-learn/scikit-learn
+  - academic/awesome-datascience
+  - Moataz-Elmesmary/Data-Science-Roadmap
+  - EbookFoundation/free-programming-books
+  - sindresorhus/awesome
+  - practical-tutorials/project-based-learning
+  - public-apis/public-apis
+  - TheAlgorithms/Python
+  - donnemartin/data-science-ipython-notebooks
+  - trekhleb/homemade-machine-learning
+  - ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
   - alshedivat/al-folio
   - twbs/bootstrap
   - jekyll/jekyll
