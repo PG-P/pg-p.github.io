@@ -4,7 +4,7 @@ title: Puy de Louchadière
 date: 2023-04-16 12:01:00
 description: Great hike
 tags: Hikes Images
-categories: sample-posts
+categories: nature
 ---
 First hike with Noé since our move to Auvergne.
 
