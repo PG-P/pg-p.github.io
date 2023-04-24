@@ -4,7 +4,7 @@ title: Puys de Jumes, de la Coquille et des Gouttes
 date: 2023-04-19 12:01:00
 description: Great hike
 tags: Hikes Images
-categories: sample-posts
+categories: nature
 ---
 Lovely hike with Noé.
 
