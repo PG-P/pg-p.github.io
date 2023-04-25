@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portfolio
-permalink: /projects/
+permalink: /portfolio/
 description: Here you can find all my ongoing projects.
 nav: true
 nav_order: 2
