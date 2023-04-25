@@ -4,6 +4,7 @@ github_users:
 github_repos:
   - ctralie/TDALabs
   - GUDHI/TDA-tutorial
+  - jisuk1/pllay
   - scikit-learn/scikit-learn
   - academic/awesome-datascience
   - Moataz-Elmesmary/Data-Science-Roadmap
