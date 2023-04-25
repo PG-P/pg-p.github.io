@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TDA | Piergiorgio  Panero</title>
+    <meta name="author" content="Piergiorgio  Panero">
+    <meta name="description" content="Protein binding dataset">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://pg-p.github.io/projects/TDA/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Piergiorgio </span>Panero</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">Blog</a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/portfolio/">Portfolio</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/repositories/">Repositories</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">CV</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/teaching/">Teaching</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">documents</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/publications/">Publications</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/portfolio/">Portfolio</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/cv/">CV</a>
+                </div>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">TDA</h1>
+            <p class="post-description">Protein binding dataset</p>
+          </header>
+
+          <article>
+            <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="n">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="n">pickle</span> <span class="k">as</span> <span class="n">pickle</span>
+<span class="kn">import</span> <span class="n">gudhi</span> <span class="k">as</span> <span class="n">gd</span>  
+<span class="kn">from</span> <span class="n">pylab</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+</code></pre></div></div>
+
+<p>The next statments load the  correlation matrices with pandas:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">path_file</span> <span class="o">=</span> <span class="s">"/Users/piergiorgiopanero/Desktop/corr/"</span>
+<span class="n">files_list</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s">'1anf.corr_1.txt'</span><span class="p">,</span> 
+    <span class="s">'1ez9.corr_1.txt'</span><span class="p">,</span> 
+    <span class="s">'1fqa.corr_2.txt'</span><span class="p">,</span> 
+    <span class="s">'1fqb.corr_3.txt'</span><span class="p">,</span> 
+    <span class="s">'1fqc.corr_2.txt'</span><span class="p">,</span> 
+    <span class="s">'1fqd.corr_3.txt'</span><span class="p">,</span> 
+    <span class="s">'1jw4.corr_4.txt'</span><span class="p">,</span> 
+    <span class="s">'1jw5.corr_5.txt'</span><span class="p">,</span> 
+    <span class="s">'1lls.corr_6.txt'</span><span class="p">,</span> 
+    <span class="s">'1mpd.corr_4.txt'</span><span class="p">,</span> 
+    <span class="s">'1omp.corr_7.txt'</span><span class="p">,</span> 
+    <span class="s">'3hpi.corr_5.txt'</span><span class="p">,</span> 
+    <span class="s">'3mbp.corr_6.txt'</span><span class="p">,</span> 
+    <span class="s">'4mbp.corr_7.txt'</span>
+<span class="p">]</span>
+<span class="n">corr_list</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span>
+        <span class="n">path_file</span> <span class="o">+</span> <span class="n">u</span><span class="p">,</span> 
+        <span class="n">header</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span> 
+        <span class="n">delim_whitespace</span> <span class="o">=</span> <span class="bp">True</span>
+    <span class="p">)</span> <span class="k">for</span> <span class="n">u</span> <span class="ow">in</span> <span class="n">files_list</span>
+<span class="p">]</span>
+</code></pre></div></div>
+
+<p>The object corr_list is a list of  correlation matrices. We can iterate in the list to compute the matrix of distances associated to each configuration:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dist_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="o">-</span> <span class="n">np</span><span class="p">.</span><span class="nf">abs</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">corr_list</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>Let’s print out the first lines of the first distance matrix:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">D</span> <span class="o">=</span> <span class="n">dist_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">D</span><span class="p">.</span><span class="nf">head</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>...</th>
+      <th>360</th>
+      <th>361</th>
+      <th>362</th>
+      <th>363</th>
+      <th>364</th>
+      <th>365</th>
+      <th>366</th>
+      <th>367</th>
+      <th>368</th>
+      <th>369</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.000000</td>
+      <td>0.076200</td>
+      <td>0.171364</td>
+      <td>0.378207</td>
+      <td>0.461747</td>
+      <td>0.493499</td>
+      <td>0.478665</td>
+      <td>0.432338</td>
+      <td>0.568455</td>
+      <td>0.639504</td>
+      <td>...</td>
+      <td>0.694159</td>
+      <td>0.723059</td>
+      <td>0.660802</td>
+      <td>0.614051</td>
+      <td>0.660601</td>
+      <td>0.686334</td>
+      <td>0.640850</td>
+      <td>0.617944</td>
+      <td>0.695108</td>
+      <td>0.748451</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.076200</td>
+      <td>0.000000</td>
+      <td>0.122763</td>
+      <td>0.233837</td>
+      <td>0.350744</td>
+      <td>0.406213</td>
+      <td>0.425202</td>
+      <td>0.381799</td>
+      <td>0.541636</td>
+      <td>0.646580</td>
+      <td>...</td>
+      <td>0.817461</td>
+      <td>0.844610</td>
+      <td>0.781266</td>
+      <td>0.740222</td>
+      <td>0.793586</td>
+      <td>0.808770</td>
+      <td>0.754748</td>
+      <td>0.730646</td>
+      <td>0.804961</td>
+      <td>0.848953</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.171364</td>
+      <td>0.122763</td>
+      <td>0.000000</td>
+      <td>0.084642</td>
+      <td>0.131528</td>
+      <td>0.148980</td>
+      <td>0.162259</td>
+      <td>0.164105</td>
+      <td>0.333175</td>
+      <td>0.480605</td>
+      <td>...</td>
+      <td>0.782234</td>
+      <td>0.813481</td>
+      <td>0.718610</td>
+      <td>0.666239</td>
+      <td>0.742311</td>
+      <td>0.740322</td>
+      <td>0.667525</td>
+      <td>0.653546</td>
+      <td>0.742430</td>
+      <td>0.766030</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.378207</td>
+      <td>0.233837</td>
+      <td>0.084642</td>
+      <td>0.000000</td>
+      <td>0.045478</td>
+      <td>0.132107</td>
+      <td>0.217299</td>
+      <td>0.293902</td>
+      <td>0.494307</td>
+      <td>0.675635</td>
+      <td>...</td>
+      <td>0.913930</td>
+      <td>0.929677</td>
+      <td>0.853475</td>
+      <td>0.813717</td>
+      <td>0.868041</td>
+      <td>0.856491</td>
+      <td>0.797437</td>
+      <td>0.781044</td>
+      <td>0.842591</td>
+      <td>0.858435</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.461747</td>
+      <td>0.350744</td>
+      <td>0.131528</td>
+      <td>0.045478</td>
+      <td>0.000000</td>
+      <td>0.059280</td>
+      <td>0.146850</td>
+      <td>0.297257</td>
+      <td>0.511751</td>
+      <td>0.734412</td>
+      <td>...</td>
+      <td>0.967195</td>
+      <td>0.979578</td>
+      <td>0.889375</td>
+      <td>0.841519</td>
+      <td>0.895967</td>
+      <td>0.874522</td>
+      <td>0.804538</td>
+      <td>0.779865</td>
+      <td>0.841695</td>
+      <td>0.849836</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 370 columns</p>
+</div>
+
+<p>The RipsComplex() function creates a 1-skeleton from the point cloud</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">skeleton_protein</span> <span class="o">=</span> <span class="n">gd</span><span class="p">.</span><span class="nc">RipsComplex</span><span class="p">(</span>
+    <span class="n">distance_matrix</span> <span class="o">=</span> <span class="n">D</span><span class="p">.</span><span class="n">values</span><span class="p">,</span> 
+    <span class="n">max_edge_length</span> <span class="o">=</span> <span class="mf">0.8</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>The max_edge_length parameter is the maximal diameter: only the edges of length less vers this value are included in the one skeleton graph.</p>
+
+<p>Next, we create the Rips simplicial complex from this one-skeleton graph. This is a filtered Rips complex which filtration function is exacly the diameter of the simplices. We use the create_simplex_tree() function:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Rips_simplex_tree_protein</span> <span class="o">=</span> <span class="n">skeleton_protein</span><span class="p">.</span><span class="nf">create_simplex_tree</span><span class="p">(</span><span class="n">max_dimension</span> <span class="o">=</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The max_dimension parameter is the maximum dimension of the simplices included in the the filtration. The object returned by the function is a simplex tree, of dimension 2 in this example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Rips_simplex_tree_protein</span><span class="p">.</span><span class="nf">dimension</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2
+</code></pre></div></div>
+
+<p>The number of simplices in a Rips complex increases very fast with the number of points and the dimension. There is more than on million of simplexes in the Rips complex:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Rips_simplex_tree_protein</span><span class="p">.</span><span class="nf">num_simplices</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1626660
+</code></pre></div></div>
+
+<p>Note that this is actually the number of simplices in the “last” Rips complex of the filtration, namely with parameter  max_edge_length=0.8.</p>
+
+<p>Now we can compute persistence on the simplex tree structure using the persistence() method of the simplex tree class:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">BarCodes_Rips</span> <span class="o">=</span> <span class="n">Rips_simplex_tree_protein</span><span class="p">.</span><span class="nf">persistence</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>The object BarCodes_Rips is the list of barcodes: each element in the list is a tuple (dim,(b,d)) where dim is a dimension, b is birth parameter and d is death parameter.</p>
+
+<p>Let’s print the 20 first elements in the list:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">20</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">BarCodes_Rips</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(1, (0.07963602000000003, 0.35798637))
+(1, (0.12677510000000003, 0.39508646999999997))
+(1, (0.26003449999999995, 0.5273952))
+(1, (0.07943339999999999, 0.31429881000000004))
+(1, (0.08248586999999996, 0.30429980999999995))
+(1, (0.11378021999999999, 0.31171713999999995))
+(1, (0.07726765000000002, 0.26078758))
+(1, (0.09107215000000002, 0.25065161999999996))
+(1, (0.0709843, 0.22765623000000001))
+(1, (0.09347402000000005, 0.24999733000000002))
+(1, (0.07013614000000001, 0.22504734000000004))
+(1, (0.08752541000000003, 0.20355559))
+(1, (0.21541215000000002, 0.32814707))
+(1, (0.06835270000000004, 0.17527247))
+(1, (0.08857625000000002, 0.19539684000000002))
+(1, (0.08241111999999995, 0.18353136999999997))
+(1, (0.10362273, 0.20264340000000003))
+(1, (0.09289979999999998, 0.19181444000000003))
+(1, (0.09581541999999998, 0.19310879999999997))
+(1, (0.09541275000000005, 0.18175165000000004))
+</code></pre></div></div>
+
+<p>These 20 topolological features have dimension 1, they corresponds to holes of dimension 1.</p>
+
+<p>We have access to persistence_intervals per dimension using the persistence_intervals_in_dimension() method, for instance for dimension 0:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Rips_simplex_tree_protein</span><span class="p">.</span><span class="nf">persistence_intervals_in_dimension</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>array([[0.        , 0.01498817],
+       [0.        , 0.01614179],
+       [0.        , 0.01618629],
+       [0.        , 0.01964641],
+       [0.        , 0.02002598],
+       [0.        , 0.02019621],
+       [0.        , 0.02128167],
+       [0.        , 0.02139837],
+       [0.        , 0.02189414],
+       [0.        , 0.02211046],
+       [0.        , 0.02279135],
+       [0.        , 0.02305466],
+       [0.        , 0.02376384],
+       [0.        , 0.02398958],
+       [0.        , 0.02427977],
+       [0.        , 0.02431161],
+       [0.        , 0.02514183],
+       [0.        , 0.0252621 ],
+       [0.        , 0.025566  ],
+       [0.        , 0.02572414],
+       [0.        , 0.02668906],
+       [0.        , 0.02703624],
+       [0.        , 0.02723942],
+       [0.        , 0.02730715],
+       [0.        , 0.02737215],
+       [0.        , 0.02743006],
+       [0.        , 0.02758413],
+       [0.        , 0.02769299],
+       [0.        , 0.0277112 ],
+       [0.        , 0.02815389],
+       [0.        , 0.02889452],
+       [0.        , 0.0291826 ],
+       [0.        , 0.02937602],
+       [0.        , 0.02954253],
+       [0.        , 0.02960991],
+       [0.        , 0.02965513],
+       [0.        , 0.02989476],
+       [0.        , 0.0299387 ],
+       [0.        , 0.03005481],
+       [0.        , 0.03019355],
+       [0.        , 0.0302212 ],
+       [0.        , 0.03044412],
+       [0.        , 0.03061732],
+       [0.        , 0.03066776],
+       [0.        , 0.03093647],
+       [0.        , 0.03093904],
+       [0.        , 0.03096135],
+       [0.        , 0.03119385],
+       [0.        , 0.03127303],
+       [0.        , 0.03137071],
+       [0.        , 0.03139056],
+       [0.        , 0.03141663],
+       [0.        , 0.03147105],
+       [0.        , 0.03165437],
+       [0.        , 0.03197555],
+       [0.        , 0.0320141 ],
+       [0.        , 0.03203755],
+       [0.        , 0.0320416 ],
+       [0.        , 0.03204383],
+       [0.        , 0.03205409],
+       [0.        , 0.03209123],
+       [0.        , 0.03216506],
+       [0.        , 0.03251925],
+       [0.        , 0.03252582],
+       [0.        , 0.0326297 ],
+       [0.        , 0.03320018],
+       [0.        , 0.03320555],
+       [0.        , 0.03322223],
+       [0.        , 0.03329767],
+       [0.        , 0.03348698],
+       [0.        , 0.03385555],
+       [0.        , 0.03414255],
+       [0.        , 0.03438535],
+       [0.        , 0.03452845],
+       [0.        , 0.03464101],
+       [0.        , 0.0351205 ],
+       [0.        , 0.03512744],
+       [0.        , 0.03513682],
+       [0.        , 0.03527348],
+       [0.        , 0.03541263],
+       [0.        , 0.03559076],
+       [0.        , 0.03564263],
+       [0.        , 0.03568637],
+       [0.        , 0.03572321],
+       [0.        , 0.03593942],
+       [0.        , 0.03595195],
+       [0.        , 0.03602799],
+       [0.        , 0.03609681],
+       [0.        , 0.03610733],
+       [0.        , 0.03616306],
+       [0.        , 0.03644183],
+       [0.        , 0.03654824],
+       [0.        , 0.03661895],
+       [0.        , 0.03724071],
+       [0.        , 0.03733498],
+       [0.        , 0.03768468],
+       [0.        , 0.03774493],
+       [0.        , 0.03798143],
+       [0.        , 0.03815909],
+       [0.        , 0.03847974],
+       [0.        , 0.03851494],
+       [0.        , 0.03857502],
+       [0.        , 0.03892696],
+       [0.        , 0.03907595],
+       [0.        , 0.03913963],
+       [0.        , 0.0392337 ],
+       [0.        , 0.03926192],
+       [0.        , 0.03947112],
+       [0.        , 0.03964138],
+       [0.        , 0.0397164 ],
+       [0.        , 0.03975846],
+       [0.        , 0.03984852],
+       [0.        , 0.03997199],
+       [0.        , 0.04015835],
+       [0.        , 0.04017049],
+       [0.        , 0.04023692],
+       [0.        , 0.04046704],
+       [0.        , 0.04072276],
+       [0.        , 0.04074775],
+       [0.        , 0.04088823],
+       [0.        , 0.04095619],
+       [0.        , 0.04096195],
+       [0.        , 0.04110269],
+       [0.        , 0.04123369],
+       [0.        , 0.04127687],
+       [0.        , 0.04131072],
+       [0.        , 0.04140789],
+       [0.        , 0.04165062],
+       [0.        , 0.04176154],
+       [0.        , 0.04181859],
+       [0.        , 0.04191496],
+       [0.        , 0.04196476],
+       [0.        , 0.0420939 ],
+       [0.        , 0.04227029],
+       [0.        , 0.04236735],
+       [0.        , 0.04254986],
+       [0.        , 0.04260688],
+       [0.        , 0.04261734],
+       [0.        , 0.04266441],
+       [0.        , 0.04296581],
+       [0.        , 0.04303701],
+       [0.        , 0.04306739],
+       [0.        , 0.04317269],
+       [0.        , 0.04346509],
+       [0.        , 0.0437037 ],
+       [0.        , 0.04372465],
+       [0.        , 0.04383413],
+       [0.        , 0.04391404],
+       [0.        , 0.04398658],
+       [0.        , 0.04400293],
+       [0.        , 0.04407297],
+       [0.        , 0.04409098],
+       [0.        , 0.04435811],
+       [0.        , 0.04439728],
+       [0.        , 0.04443404],
+       [0.        , 0.0444774 ],
+       [0.        , 0.04451368],
+       [0.        , 0.04482899],
+       [0.        , 0.04495304],
+       [0.        , 0.04547506],
+       [0.        , 0.04547828],
+       [0.        , 0.0455478 ],
+       [0.        , 0.04615431],
+       [0.        , 0.04619047],
+       [0.        , 0.04625533],
+       [0.        , 0.04628039],
+       [0.        , 0.04678061],
+       [0.        , 0.04679402],
+       [0.        , 0.04680115],
+       [0.        , 0.04704526],
+       [0.        , 0.04719844],
+       [0.        , 0.04747816],
+       [0.        , 0.04767326],
+       [0.        , 0.04768366],
+       [0.        , 0.04792482],
+       [0.        , 0.04797942],
+       [0.        , 0.04802758],
+       [0.        , 0.04811274],
+       [0.        , 0.04824104],
+       [0.        , 0.04824237],
+       [0.        , 0.04833753],
+       [0.        , 0.04848755],
+       [0.        , 0.0485553 ],
+       [0.        , 0.04857819],
+       [0.        , 0.04860536],
+       [0.        , 0.04885771],
+       [0.        , 0.04897734],
+       [0.        , 0.04901851],
+       [0.        , 0.04944188],
+       [0.        , 0.04948698],
+       [0.        , 0.04950527],
+       [0.        , 0.049558  ],
+       [0.        , 0.04972988],
+       [0.        , 0.04981983],
+       [0.        , 0.04982386],
+       [0.        , 0.04984923],
+       [0.        , 0.04986276],
+       [0.        , 0.05027105],
+       [0.        , 0.0504428 ],
+       [0.        , 0.05055695],
+       [0.        , 0.05066297],
+       [0.        , 0.05070345],
+       [0.        , 0.0509538 ],
+       [0.        , 0.05103037],
+       [0.        , 0.0510853 ],
+       [0.        , 0.0511247 ],
+       [0.        , 0.05119141],
+       [0.        , 0.05125808],
+       [0.        , 0.0514161 ],
+       [0.        , 0.05146225],
+       [0.        , 0.05157315],
+       [0.        , 0.05181604],
+       [0.        , 0.0518984 ],
+       [0.        , 0.05228542],
+       [0.        , 0.05245802],
+       [0.        , 0.05249016],
+       [0.        , 0.05256426],
+       [0.        , 0.05261345],
+       [0.        , 0.052687  ],
+       [0.        , 0.05269135],
+       [0.        , 0.05286959],
+       [0.        , 0.05308782],
+       [0.        , 0.05312981],
+       [0.        , 0.05328802],
+       [0.        , 0.05388745],
+       [0.        , 0.05406629],
+       [0.        , 0.05424359],
+       [0.        , 0.05432115],
+       [0.        , 0.05434062],
+       [0.        , 0.05447437],
+       [0.        , 0.05475445],
+       [0.        , 0.0547687 ],
+       [0.        , 0.05480814],
+       [0.        , 0.05501963],
+       [0.        , 0.05515901],
+       [0.        , 0.0551603 ],
+       [0.        , 0.05521654],
+       [0.        , 0.05539072],
+       [0.        , 0.05547035],
+       [0.        , 0.05559308],
+       [0.        , 0.05608519],
+       [0.        , 0.05611108],
+       [0.        , 0.05611354],
+       [0.        , 0.05622496],
+       [0.        , 0.05627249],
+       [0.        , 0.05637189],
+       [0.        , 0.057297  ],
+       [0.        , 0.05729971],
+       [0.        , 0.05746997],
+       [0.        , 0.05753706],
+       [0.        , 0.05846568],
+       [0.        , 0.05849421],
+       [0.        , 0.05855491],
+       [0.        , 0.05858433],
+       [0.        , 0.05881015],
+       [0.        , 0.05891398],
+       [0.        , 0.05910734],
+       [0.        , 0.05927985],
+       [0.        , 0.05930276],
+       [0.        , 0.05937792],
+       [0.        , 0.0595791 ],
+       [0.        , 0.05959093],
+       [0.        , 0.05960105],
+       [0.        , 0.06001639],
+       [0.        , 0.06091708],
+       [0.        , 0.06102111],
+       [0.        , 0.0611472 ],
+       [0.        , 0.061409  ],
+       [0.        , 0.06150065],
+       [0.        , 0.06153714],
+       [0.        , 0.06154331],
+       [0.        , 0.06164122],
+       [0.        , 0.0619127 ],
+       [0.        , 0.06200894],
+       [0.        , 0.06212457],
+       [0.        , 0.0624782 ],
+       [0.        , 0.06275173],
+       [0.        , 0.06289645],
+       [0.        , 0.06309263],
+       [0.        , 0.06329755],
+       [0.        , 0.06339085],
+       [0.        , 0.06340604],
+       [0.        , 0.0634087 ],
+       [0.        , 0.06365607],
+       [0.        , 0.06370852],
+       [0.        , 0.06376314],
+       [0.        , 0.06452474],
+       [0.        , 0.06464462],
+       [0.        , 0.06539584],
+       [0.        , 0.0655788 ],
+       [0.        , 0.06560913],
+       [0.        , 0.06565494],
+       [0.        , 0.06628835],
+       [0.        , 0.0664005 ],
+       [0.        , 0.06651979],
+       [0.        , 0.0665555 ],
+       [0.        , 0.06667502],
+       [0.        , 0.0667084 ],
+       [0.        , 0.06679813],
+       [0.        , 0.0668217 ],
+       [0.        , 0.06688167],
+       [0.        , 0.06728802],
+       [0.        , 0.06736142],
+       [0.        , 0.06764264],
+       [0.        , 0.06825241],
+       [0.        , 0.06869392],
+       [0.        , 0.06877336],
+       [0.        , 0.06892966],
+       [0.        , 0.06897429],
+       [0.        , 0.06918575],
+       [0.        , 0.06954789],
+       [0.        , 0.06996146],
+       [0.        , 0.07021497],
+       [0.        , 0.07103847],
+       [0.        , 0.07105814],
+       [0.        , 0.07122811],
+       [0.        , 0.07162656],
+       [0.        , 0.07171408],
+       [0.        , 0.07273788],
+       [0.        , 0.07326412],
+       [0.        , 0.07355539],
+       [0.        , 0.07385251],
+       [0.        , 0.0738902 ],
+       [0.        , 0.07394715],
+       [0.        , 0.07403273],
+       [0.        , 0.0746566 ],
+       [0.        , 0.07496114],
+       [0.        , 0.07510989],
+       [0.        , 0.07526754],
+       [0.        , 0.0761947 ],
+       [0.        , 0.07620041],
+       [0.        , 0.07628743],
+       [0.        , 0.07870332],
+       [0.        , 0.07881973],
+       [0.        , 0.07893213],
+       [0.        , 0.07893759],
+       [0.        , 0.07933292],
+       [0.        , 0.08004957],
+       [0.        , 0.08036911],
+       [0.        , 0.08080199],
+       [0.        , 0.08109694],
+       [0.        , 0.081755  ],
+       [0.        , 0.08176781],
+       [0.        , 0.08248695],
+       [0.        , 0.08258634],
+       [0.        , 0.08299805],
+       [0.        , 0.08464198],
+       [0.        , 0.08729047],
+       [0.        , 0.08744106],
+       [0.        , 0.08878104],
+       [0.        , 0.08969459],
+       [0.        , 0.09321352],
+       [0.        , 0.09341871],
+       [0.        , 0.09479173],
+       [0.        , 0.09541855],
+       [0.        , 0.10237913],
+       [0.        , 0.10285434],
+       [0.        , 0.10715871],
+       [0.        , 0.10830089],
+       [0.        , 0.10954903],
+       [0.        , 0.11366507],
+       [0.        , 0.11958183],
+       [0.        , 0.14547953],
+       [0.        , 0.18964299],
+       [0.        , 0.39963213],
+       [0.        , 0.40540978],
+       [0.        , 0.4251596 ],
+       [0.        , 0.50723615],
+       [0.        , 0.66869636],
+       [0.        ,        inf]])
+</code></pre></div></div>
+
+<p>The last bars (0.0, inf) die at infinity.</p>
+
+<p>Finally we can plot the points (birth, death) in the so-called persistence diagram:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gd</span><span class="p">.</span><span class="nf">plot_persistence_diagram</span><span class="p">(</span><span class="n">BarCodes_Rips</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p><img src="output_22_0.png" alt="png"></p>
+
+<p>In this representation, -dimensional features are the red points (holes of dimension , namely connected components). The last connected component dies at infinity in the filtration (red point at the top). The -dimensional features are represented in blue.</p>
+
+<p>The most persistent topological features are those points that are far from the diagonal. Further in the tutorial we give statistical methods to identify significant topological features.</p>
+
+<p>Note that this representation does not say which points are “at the origin” of a given feature. Moreover, a given topological feature (namely a homology class that corresponds to a hole of dimension ) is by definition a class of cycles defined on the point cloud and thus it can be represented by several cycles.</p>
+
+<p><strong>Bottleneck distance</strong></p>
+
+<p>To exploit the topological information and topological features inferred from persistent homology, one needs to be able to compare persistence diagrams.</p>
+
+<p>We see a persistence diagram as the union of its points and of the diagonal, where the point of the diagonal are counted with infinite multiplicity.</p>
+
+<p>Let us compute the Rips complex filtration for another configuration of protein:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">D1</span> <span class="o">=</span> <span class="n">dist_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="n">skeleton_protein1</span> <span class="o">=</span> <span class="n">gd</span><span class="p">.</span><span class="nc">RipsComplex</span><span class="p">(</span>
+    <span class="n">distance_matrix</span> <span class="o">=</span> <span class="n">D1</span><span class="p">.</span><span class="n">values</span><span class="p">,</span> 
+    <span class="n">max_edge_length</span> <span class="o">=</span> <span class="mf">0.8</span>
+<span class="p">)</span> 
+
+<span class="n">Rips_simplex_tree_protein1</span> <span class="o">=</span> <span class="n">skeleton_protein1</span><span class="p">.</span><span class="nf">create_simplex_tree</span><span class="p">(</span><span class="n">max_dimension</span> <span class="o">=</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>and the barcode for this filtration:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">BarCodes_Rips1</span> <span class="o">=</span> <span class="n">Rips_simplex_tree_protein1</span><span class="p">.</span><span class="nf">persistence</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>The bottleneck distance between the two persistence diagrams can be computed using the bottleneck_distance() function. The bottleneck distance is computed per dimension (for dimension 1 in the example below). We can give in argument of the function the persistence_intervals for a given dimension, which can be computed using the persistence_intervals_in_dimension() function.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">I0</span> <span class="o">=</span> <span class="n">Rips_simplex_tree_protein</span><span class="p">.</span><span class="nf">persistence_intervals_in_dimension</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">I1</span> <span class="o">=</span> <span class="n">Rips_simplex_tree_protein1</span><span class="p">.</span><span class="nf">persistence_intervals_in_dimension</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">gd</span><span class="p">.</span><span class="nf">bottleneck_distance</span><span class="p">(</span><span class="n">I0</span><span class="p">,</span> <span class="n">I1</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0.05052142999999998
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gd</span><span class="p">.</span><span class="nf">plot_persistence_diagram</span><span class="p">(</span><span class="n">BarCodes_Rips1</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p><img src="output_30_0.png" alt="png"></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+          </article>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Piergiorgio  Panero. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a> and myself.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
