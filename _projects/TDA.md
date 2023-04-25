@@ -7,6 +7,9 @@ importance: 1
 category: work
 ---
 
+Let's play with the Gudhi library, an excellent library for TDA in Python. 
+We will use a dataset of closed and open forms of the maltose-binding protein.
+
 ```python
 import numpy as np
 import pandas as pd
