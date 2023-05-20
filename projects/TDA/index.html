@@ -23,7 +23,7 @@
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
@@ -148,22 +148,22 @@ We will use a dataset of closed and open forms of the maltose-binding protein.</
 
 <p>The next statments load the  correlation matrices with pandas:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">path_file</span> <span class="o">=</span> <span class="s">"/Users/piergiorgiopanero/Desktop/corr/"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">path_file</span> <span class="o">=</span> <span class="sh">"</span><span class="s">/Users/piergiorgiopanero/Desktop/corr/</span><span class="sh">"</span>
 <span class="n">files_list</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s">'1anf.corr_1.txt'</span><span class="p">,</span> 
-    <span class="s">'1ez9.corr_1.txt'</span><span class="p">,</span> 
-    <span class="s">'1fqa.corr_2.txt'</span><span class="p">,</span> 
-    <span class="s">'1fqb.corr_3.txt'</span><span class="p">,</span> 
-    <span class="s">'1fqc.corr_2.txt'</span><span class="p">,</span> 
-    <span class="s">'1fqd.corr_3.txt'</span><span class="p">,</span> 
-    <span class="s">'1jw4.corr_4.txt'</span><span class="p">,</span> 
-    <span class="s">'1jw5.corr_5.txt'</span><span class="p">,</span> 
-    <span class="s">'1lls.corr_6.txt'</span><span class="p">,</span> 
-    <span class="s">'1mpd.corr_4.txt'</span><span class="p">,</span> 
-    <span class="s">'1omp.corr_7.txt'</span><span class="p">,</span> 
-    <span class="s">'3hpi.corr_5.txt'</span><span class="p">,</span> 
-    <span class="s">'3mbp.corr_6.txt'</span><span class="p">,</span> 
-    <span class="s">'4mbp.corr_7.txt'</span>
+    <span class="sh">'</span><span class="s">1anf.corr_1.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">1ez9.corr_1.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">1fqa.corr_2.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">1fqb.corr_3.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">1fqc.corr_2.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">1fqd.corr_3.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">1jw4.corr_4.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">1jw5.corr_5.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">1lls.corr_6.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">1mpd.corr_4.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">1omp.corr_7.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">3hpi.corr_5.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">3mbp.corr_6.txt</span><span class="sh">'</span><span class="p">,</span> 
+    <span class="sh">'</span><span class="s">4mbp.corr_7.txt</span><span class="sh">'</span>
 <span class="p">]</span>
 <span class="n">corr_list</span> <span class="o">=</span> <span class="p">[</span>
     <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span>
