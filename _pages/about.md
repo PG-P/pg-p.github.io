@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p> 📞: +393407137328 </p>
-    <p> 📞: +32483818362</p>
     <p> 🏠: Clermont-Ferrand, France 63100</p>
 
 news: false  # includes a list of news items
@@ -34,3 +33,4 @@ I would like to understand how Git works, and try to learn tons of new stuff.
 
 This is my LinkedIn page, not very up to date nor interesting, but you may give a look anyway: [Piergiorgio Panero.](https://www.linkedin.com/in/piergiorgio-panero-8922691aa/)
 
+I post in my Blog page my random interests: hiking, maths stuff, literature, etc.
