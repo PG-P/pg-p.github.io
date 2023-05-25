@@ -34,10 +34,3 @@ I would like to understand how Git works, and try to learn tons of new stuff.
 
 This is my LinkedIn page, not very up to date nor interesting, but you may give a look anyway: [Piergiorgio Panero.](https://www.linkedin.com/in/piergiorgio-panero-8922691aa/)
 
-Probably I may even learn how to create a website here, so to show everyone my CV's and projects, but for sure it will take a while.
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
